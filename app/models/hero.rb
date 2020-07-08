@@ -4,9 +4,9 @@ attr_accessor :name, :power, :bio
 @@all = []
 
   def initialize(attrs)
-    @name =
-    @power =
-    @bio =
+    @name = attrs[:name]
+    @power = attrs[:power]
+    @bio = attrs[:bio]
     @@all << self
   end
 
