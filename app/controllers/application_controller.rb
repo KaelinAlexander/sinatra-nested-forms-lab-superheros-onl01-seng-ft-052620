@@ -11,7 +11,7 @@ class App < Sinatra::Base
     end
 
     post '/assemble' do
-
+      @team = Team.new(params[:team][:name], params[:team][:motto])
 
       erb :team
     end
