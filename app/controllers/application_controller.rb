@@ -8,4 +8,8 @@ class App < Sinatra::Base
       erb :super_hero
     end
 
+    post '/assemble' do
+
+      erb :team
+
 end
