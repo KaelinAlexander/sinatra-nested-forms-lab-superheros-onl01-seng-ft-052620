@@ -11,5 +11,6 @@ class App < Sinatra::Base
     post '/assemble' do
 
       erb :team
+    end
 
 end
