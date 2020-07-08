@@ -1,6 +1,5 @@
 class Hero
 attr_accessor :name, :power, :bio
-
 @@all = []
 
   def initialize(attrs)
